@@ -33,8 +33,9 @@ vim.g.maplocalleader = "\\"
 -- NOTE: Here is where you install your plugins.
 require("lazy").setup({
 	-- add list of plugins to install
-    {import = "plugins.telescope"},
-    {import = "plugins.lsp.lspconfig"},
+    {import = "plugins.import"},
+    -- {import = "plugins.telescope"},
+    -- {import = "plugins.lsp.lspconfig"},
 	"christoomey/vim-tmux-navigator", -- tmux & split window navigation
 	"szw/vim-maximizer", -- maximizes and restores current window
 	"tpope/vim-surround", -- add, delete, change surroundings (it's awesome)
